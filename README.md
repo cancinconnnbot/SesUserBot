@@ -5,34 +5,12 @@ A Telegram UserBot to Play music 🎶 in Voice Chats.
 It's recommended to use an USA number.(if your real number is suspended I'm not responsible.use at your own risks) no grauanty no waranty
 Use at your own risks..
 
-## Give your 💙
-
-Before clicking on deploy to heroku just click on fork and star just below
-
-<p align="center">
-  <a href="https://github.com/tamilbots/tamilvcbot/fork">
-    <img src="https://img.shields.io/github/forks/tamilbots/tamilvcbot?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/tamilbots/tamilvcbot">
-    <img src="https://img.shields.io/github/stars/tamilbots/tamilvcbot?style=social">
-  </a>
-</p>
-
-## How to deploy 
-
-Click the below button to watch the video tutorial on deploying
-
-<a href="https://youtu.be/ThJQYQLcSsg"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/ThJQYQLcSsg"><img src="https://img.shields.io/youtube/views/ThJQYQLcSsg?style=social">
-
 ###  GET STRING SESSION FROM REPL RUN
 
  [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TamilBots/generate-pyrogram-session-string#main.py)
 
 <b> Deploy to Heroku </b>
-[![tamilbot logo](https://telegra.ph/file/6babc0f95a5362fd27872.jpg)](https://heroku.com/deploy?template=https://github.com/TamilBots/TamilVcBot)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TAMILBOTS/TAMILVCBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cancinconnnbot/SesUserBot)
 
 - Enable the worker after deploy the project to Heroku
 - send `!ping`, `!uptime`, or `!sysinfo` from userbot account itself or its contacts to check if the userbot is running or not.
@@ -101,20 +79,9 @@ to every member of the group. send `!help` to check more commands.
 | uptime  | !uptime  | show userbot uptime |
 | sysinfo | !sysinfo | show system info    |
 
-## Requirements
-
-- Python 3.6 or higher
-- A [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api) and a Telegram account
-- Choose plugins you need, install dependencies which listed above and run `pip install -U -r requirements.txt` to install python package dependencies as well
-- [FFmpeg](https://www.ffmpeg.org/)
-
 ## Run
 
 Choose one of the two methods and run the userbot with
 `python userbot.py`, stop with <kbd>CTRL+c</kbd>. The following example
 assume that you were going to use `vc.player` and `ping` plugin, replace
 `api_id`, `api_hash` to your own value.
-
-# Credits :
-
-This Repo Is Just A Custom Fork Of [callsmusic/tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)
